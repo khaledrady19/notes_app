@@ -9,7 +9,7 @@ class NoteItem extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
       decoration: BoxDecoration(
-        color: Colors.blue.shade500,
+        color: Colors.blueAccent,
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -25,7 +25,8 @@ class NoteItem extends StatelessWidget {
               child: Text(
                 'Bulid Your Carrer With Khaled Rady',
                 style:
-                    TextStyle(color: Colors.black.withOpacity(.4), fontSize: 20),
+                    TextStyle(color: Colors.black.withOpacity(.4),
+                     fontSize: 18),
               ),
             ),
             trailing: IconButton(
