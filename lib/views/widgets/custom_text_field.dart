@@ -15,7 +15,7 @@ class CustomTextField extends StatelessWidget {
         hintText: hint,
         border: bulidBorder(),
         enabledBorder: bulidBorder(),
-        focusedBorder: bulidBorder(kPrimaryColor)
+        focusedBorder: bulidBorder(kPrimaryColor),
       ),
     );
   }
